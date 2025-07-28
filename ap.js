@@ -477,31 +477,44 @@ _____________________ Answer ________________________________________ */
 // else{return num* fact(num-1)}};
 // console.log(fact(5))
 /*___________________________ Question no 35 ________________________
- Countdown Numbers
-Question:
-Create a recursive function that takes a number and prints counting in 
-reverse until 1.
+ palindrome checker
+_____________________ Answer ________________________________________ */
+// let word = "madam";
+// let reversed = "";
 
-Example: countDown(5) should print →
+// for (let i = word.length - 1; i >= 0; i--) {
+//   reversed += word[i];
+// }
 
-5  
-4  
-3  
-2  
-1  
-Done!
+// if (word === reversed) {
+//   console.log(word + " is a palindrome");
+// } else {
+//   console.log(word + " is not a palindrome");
+// }
+
+/*___________________________ Question no 36 ________________________
+return call back function 
 _____________________ Answer ________________________________________ */
 
+function calclating(a,b){let ans = a + b;
+  return ans;
+}
 
-/*___________________________ Question no 1 ________________________
+function process(calclating){calclating(3,2);
+  return calclating(3,2)
+};
+ let final = process(calclating);
+ console.log(final)
+/*___________________________ Question no 37 ________________________
 
 _____________________ Answer ________________________________________ */
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
+let count = 1;
+function recursionFunction(){if(count <= 10){console.log(count * 4);
+  count++;
+  recursionFunction()
+}
+}
+recursionFunction()
 
 
 /*___________________________ Question no 1 ________________________
