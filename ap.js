@@ -496,62 +496,163 @@ _____________________ Answer ________________________________________ */
 return call back function 
 _____________________ Answer ________________________________________ */
 
-function calclating(a,b){let ans = a + b;
-  return ans;
-}
+// function calclating(a,b){let ans = a + b;
+//   return ans;
+// }
 
-function process(calclating){calclating(3,2);
-  return calclating(3,2)
-};
- let final = process(calclating);
- console.log(final)
+// function process(calclating){calclating(3,2);
+//   return calclating(3,2)
+// };
+//  let final = process(calclating);
+//  console.log(final)
 /*___________________________ Question no 37 ________________________
+recursion function
+_____________________ Answer ________________________________________ */
+// let count = 1;
+// function recursionFunction(){if(count <= 10){console.log(count * 4);
+//   count++;
+//   recursionFunction()
+// }
+// }
+// recursionFunction()
+
+
+/*___________________________ Question no 38 ________________________
+call of three function inside in object;
+_____________________ Answer ________________________________________ */
+// const handleCalculation = (n)=>{const obj = {};
+// obj.reset = () =>{return n;};
+// obj.inc = () =>{return n + 1;};
+// obj.dec = ()=>{return n - 1;};
+// return obj;}
+// const output = handleCalculation(5);
+// console.log(output.dec())
+// console.log(output.inc());
+// console.log(output.reset())
+
+
+/*___________________________ Question no 40 ________________________
+Create a function createMultiplier(num) that returns an object with three methods:
+
+double() → returns the number multiplied by 2
+
+triple() → returns the number multiplied by 3
+
+square() → returns the number squared
+
+Required Output:
+
+
+const output = createMultiplier(4);
+console.log(output.double()); // 8
+console.log(output.triple()); // 12
+console.log(output.square()); // 16
+_____________________ Answer ________________________________________ */
+// const createMultiplier = (num) =>{obj = {};
+// obj.double = (num)=>{return num * 2;
+// };
+// obj.tripple = (num) => {return num *  3;};
+// obj.square = (num) => {return num * num;};
+// return obj;
+// }
+// let Answer = createMultiplier();
+// console.log(Answer.double(3));
+// console.log(Answer.tripple(4))
+// console.log(Answer.square(7));
+
+/*___________________________ Question no 41 ________________________
+Create a function stringHandler(str) that returns an object with three methods:
+upper() → returns the string in uppercase
+lower() → returns the string in lowercase
+length() → returns the length of the string
+Required Output:
+const output = stringHandler("Hello");
+console.log(output.upper());  // "HELLO"
+console.log(output.lower());  // "hello"
+console.log(output.length()); // 5
 
 _____________________ Answer ________________________________________ */
-let count = 1;
-function recursionFunction(){if(count <= 10){console.log(count * 4);
-  count++;
-  recursionFunction()
-}
-}
-recursionFunction()
+// const stringHandler = () =>{obj = {};
+// obj.upper = (str) =>{return str.toUpperCase()};
+// obj.lower = (str)=>{return str.toLowerCase()};
+// obj.lengt = (str) =>{return str.length;}
+// return obj;}
+// let output = stringHandler();
+// console.log(output.upper('aziz'));
+// console.log(output.lower('ABID'));
+// console.log(output.lengt('hadi'))
 
 
-/*___________________________ Question no 1 ________________________
+/*___________________________ Question no 42 ________________________
+Create a function arrayHandler(arr) that returns an object with three methods:
 
+first() → returns the first element
+
+last() → returns the last element
+
+size() → returns the number of elements
+
+Required Output:
+
+const output = arrayHandler([10, 20, 30, 40]);
+console.log(output.first()); // 10
+console.log(output.last());  // 40
+console.log(output.size());  // 4
+
+_____________________ Answer ________________________________________ */
+// const arrayHandler = () =>{ obj = {}; 
+// obj.first = (arr) => {return arr.at(0);
+// };
+// obj.last = (arr) => { return arr.at(arr.length-1);
+
+// }
+// obj.number = (arr) =>{return arr.length;}
+
+// return obj;
+// }
+
+// let Answer = arrayHandler();
+// let arr = ['apple','mango','juice'];
+// console.log(Answer.first(arr));
+// console.log(Answer.last(arr));
+// console.log(Answer.number(arr));
+
+/*___________________________ Question no 43________________________
+Create a function mathOperations(x, y) that returns an object with three methods:
+
+sum() → returns x + y
+
+product() → returns x * y
+
+difference() → returns x - y
+
+Required Output:
+
+const output = mathOperations(7, 3);
+console.log(output.sum());       // 10
+console.log(output.product());   // 21
+console.log(output.difference()); // 4
 _____________________ Answer ________________________________________ */
 
 
 
-/*___________________________ Question no 1 ________________________
 
-_____________________ Answer ________________________________________ */
+/*___________________________ Question no 44 ________________________
 
+Create a function counter(start) that returns an object with methods:
 
+next() → increases by 1 and returns new value
 
-/*___________________________ Question no 1 ________________________
+prev() → decreases by 1 and returns new value
 
-_____________________ Answer ________________________________________ */
+current() → returns current value without change
 
+Required Output:
 
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
+const output = counter(10);
+console.log(output.next());    // 11
+console.log(output.prev());    // 10
+console.log(output.current()); // 10
 _____________________ Answer ________________________________________ */
 
 
