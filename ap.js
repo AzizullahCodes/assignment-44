@@ -634,7 +634,21 @@ console.log(output.product());   // 21
 console.log(output.difference()); // 4
 _____________________ Answer ________________________________________ */
 
+// const mathOperations = () => {
+//   const obj = {};
 
+//   obj.sumi = (x, y) => {return x + y};
+//   obj.product = (x, y) => {return x * y;};
+//   obj.difference = (x, y) => {return x -y;};
+
+//   return obj;
+// };
+
+// let final = mathOperations();
+
+// console.log(final.sumi(10, 30));      // 40
+// console.log(final.product(2, 4));     // 8
+// console.log(final.difference(8, 2));  // 6
 
 
 /*___________________________ Question no 44 ________________________
@@ -649,32 +663,49 @@ current() → returns current value without change
 
 Required Output:
 
-const output = counter(10);
-console.log(output.next());    // 11
-console.log(output.prev());    // 10
-console.log(output.current()); // 10
 _____________________ Answer ________________________________________ */
+// function counter(num){obj = {};
+// obj.reset = (num)=>{return num;};
+// obj.incrementing = (num) =>{return num + 1;
+// };
+// obj.decrementing = (num) => {return num - 1;};
+// return obj;
+
+// }
+// let final = counter();
+// console.log(final.incrementing(10));
+// console.log(final.decrementing(10));
+// console.log(final.reset(10));
 
 
 
-
-/*___________________________ Question no 1 ________________________
-
+/*___________________________ Question no 45 ________________________
+check palindrome
 _____________________ Answer ________________________________________ */
+// let word = 'mom';
+// let reversed = '';
+// for(let i = word.length - 1; i >=0 ; i--){reversed = reversed + word[i];
+  
+// }
+// if(word === reversed){console.log('It is palindrome string')}
+// else{console.log('It is not palindrome string')}
 
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
+/*___________________________ Question no 46 ________________________
+bulb on off programme
 _____________________ Answer ________________________________________ */
+// function oning(){let getBulb = document.getElementById('bulb');
+//   let getHeading = document.getElementById('heading');
+//   getHeading.innerHTML = 'Bulb on';
+//   getBulb.src = "./assets/bulb_on.jpg";
+// }
 
+// function offing(){let getBulb = document.getElementById('bulb');
+//   let getHeading = document.getElementById('heading');
+//   getHeading.innerHTML = 'Bulb Off';
+//   getBulb.src = "./assets/bulb_off.jpg";
+// }
 
-
-
-
-/*___________________________ Question no 1 ________________________
+/*___________________________ Question no 47 ________________________
 
 _____________________ Answer ________________________________________ */
 
