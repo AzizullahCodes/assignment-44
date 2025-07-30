@@ -682,173 +682,69 @@ _____________________ Answer ________________________________________ */
 /*___________________________ Question no 45 ________________________
 check palindrome
 _____________________ Answer ________________________________________ */
-// let word = 'mom';
-// let reversed = '';
-// for(let i = word.length - 1; i >=0 ; i--){reversed = reversed + word[i];
+ let word = 'mom';
+ let reversed = '';
+ for(let i = word.length - 1; i >=0 ; i--){reversed = reversed + word[i];
   
-// }
-// if(word === reversed){console.log('It is palindrome string')}
-// else{console.log('It is not palindrome string')}
+ }
+ if(word === reversed){console.log('It is palindrome string')}
+ else{console.log('It is not palindrome string')}
 
 /*___________________________ Question no 46 ________________________
 bulb on off programme
 _____________________ Answer ________________________________________ */
-// function oning(){let getBulb = document.getElementById('bulb');
-//   let getHeading = document.getElementById('heading');
-//   getHeading.innerHTML = 'Bulb on';
-//   getBulb.src = "./assets/bulb_on.jpg";
-// }
+ function oning(){let getBulb = document.getElementById('bulb');
+   let getHeading = document.getElementById('heading');
+   getHeading.innerHTML = 'Bulb on';
+   getBulb.src = "./assets/bulb_on.jpg";
+ }
 
-// function offing(){let getBulb = document.getElementById('bulb');
-//   let getHeading = document.getElementById('heading');
-//   getHeading.innerHTML = 'Bulb Off';
-//   getBulb.src = "./assets/bulb_off.jpg";
-// }
+ function offing(){let getBulb = document.getElementById('bulb');
+   let getHeading = document.getElementById('heading');
+   getHeading.innerHTML = 'Bulb Off';
+   getBulb.src = "./assets/bulb_off.jpg";
+ }
 
 /*___________________________ Question no 47 ________________________
-
+call back function
 _____________________ Answer ________________________________________ */
+// const calclating = (a,b)=>{let ans = a + b;
+//   console.log(ans);
+// }
 
+// const general = (calclating)=>{calclating(100,200)};
+// general(calclating)
 
-/*___________________________ Question no 1 ________________________
-
+/*___________________________ Question no 48 ________________________
+recursion function 
 _____________________ Answer ________________________________________ */
+// let count = 1;
+// const ank = () =>{if(count <= 10){console.log(count * 4);
+// count ++;
+//   ank();
+// }
+// }
+// ank()
 
-
-/*___________________________ Question no 1 ________________________
-
+/*___________________________ Question no 49 ________________________
+Recursion Function
 _____________________ Answer ________________________________________ */
+// function recusive(num){if(num === 0){console.log('coding has been done');
+//   return;
+// }else{console.log('i am doing coding')
+//   recusive(num-1)
+// }
 
+// }
+// recusive(5)
 
-
-/*___________________________ Question no 1 ________________________
-
+/*___________________________ Question no 50 ________________________
+Find factorial by recursion function
 _____________________ Answer ________________________________________ */
+// factorial 
+// function factorial(n){if(n === 1){return 1;}
+//   let fact = n*factorial(n-1)
+// return fact}
+// let ans = factorial(5);
+// console.log(ans)
 
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
-
-
-
-
-
-/*___________________________ Question no 1 ________________________
-
-_____________________ Answer ________________________________________ */
