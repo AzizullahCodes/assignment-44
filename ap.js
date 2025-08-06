@@ -682,28 +682,28 @@ _____________________ Answer ________________________________________ */
 /*___________________________ Question no 45 ________________________
 check palindrome
 _____________________ Answer ________________________________________ */
- let word = 'mom';
- let reversed = '';
- for(let i = word.length - 1; i >=0 ; i--){reversed = reversed + word[i];
+//  let word = 'mom';
+//  let reversed = '';
+//  for(let i = word.length - 1; i >=0 ; i--){reversed = reversed + word[i];
   
- }
- if(word === reversed){console.log('It is palindrome string')}
- else{console.log('It is not palindrome string')}
+//  }
+//  if(word === reversed){console.log('It is palindrome string')}
+//  else{console.log('It is not palindrome string')}
 
 /*___________________________ Question no 46 ________________________
 bulb on off programme
 _____________________ Answer ________________________________________ */
- function oning(){let getBulb = document.getElementById('bulb');
-   let getHeading = document.getElementById('heading');
-   getHeading.innerHTML = 'Bulb on';
-   getBulb.src = "./assets/bulb_on.jpg";
- }
+//  function oning(){let getBulb = document.getElementById('bulb');
+//    let getHeading = document.getElementById('heading');
+//    getHeading.innerHTML = 'Bulb on';
+//    getBulb.src = "./assets/bulb_on.jpg";
+//  }
 
- function offing(){let getBulb = document.getElementById('bulb');
-   let getHeading = document.getElementById('heading');
-   getHeading.innerHTML = 'Bulb Off';
-   getBulb.src = "./assets/bulb_off.jpg";
- }
+//  function offing(){let getBulb = document.getElementById('bulb');
+//    let getHeading = document.getElementById('heading');
+//    getHeading.innerHTML = 'Bulb Off';
+//    getBulb.src = "./assets/bulb_off.jpg";
+//  }
 
 /*___________________________ Question no 47 ________________________
 call back function
@@ -748,3 +748,7 @@ _____________________ Answer ________________________________________ */
 // let ans = factorial(5);
 // console.log(ans)
 
+let name = 'aziz';
+console.log(name);
+let num = 213;
+console.log(num)
